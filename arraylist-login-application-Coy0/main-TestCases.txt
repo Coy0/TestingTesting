@@ -1,0 +1,59 @@
+
+
+//TestCases
+o:Would you like to (create account) or (login)?
+i:login
+o:Enter Username:
+i:Beezel
+o:Enter Password:
+i:Bub
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:create account
+o:Enter Username:
+i:Beezel
+o:Enter Password:
+i:Bub
+
+
+o:Would you like to (create account) or (login)?
+i:create account
+o:Enter Username:
+i:Beezel
+o:Enter Username:
+i:Wawa
+o:Enter Password:
+i:Bubby
+
+
+o:Would you like to (create account) or (login)?
+i:create account
+o:Enter Username:
+i:Wawawawawawa
+o:Enter Password:
+i:Bub
+
+
+o:Would you like to (create account) or (login)?
+i:login
+o:Enter Username:
+i:Beezel
+o:Enter Password:
+i:Bubulous
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:login
+o:Enter Username:
+i:Wawa
+o:Enter Password:
+i:Bub
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:login
+o:Enter Username:
+i:Beezel
+o:Enter Password:
+i:Bub
+o:welcome, Beezel
+
+//

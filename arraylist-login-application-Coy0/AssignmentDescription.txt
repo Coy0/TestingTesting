@@ -1,0 +1,51 @@
+1.)Create Test Cases for the following project (in TestCases.txt) submit to codeGrade
+2.)Create a flow chart or pseudo code using the test cases from part 1
+3.)Create the project in intelliJ from the pseudocode or flowchart submit to codegrade
+
+Login application:
+
+You are to create a program that can store login information. It should also allow users to "login"
+
+Your program needs to do the follow:
+
+Ask the user if they want to "create account" or "login"
+If they select create account you should prompt them for a username 
+If the username already exists in the system have them re enter a different user name.
+After they have a username ask for for a password.
+Your program should save this information and go back to asking if they would like to "create an account" or "login"
+If they choose to login, ask for a username and password and see if there is an account that matches the credentials.
+If it matches, print "welcome, " + username  and close the program
+If it does not match print "sorry account does not match records" and return to asking if they would like to "create an account" or "login"
+
+Example:
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:Ross	
+o:sorry account does not match records
+
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:Bob	
+o:Enter Password:	
+i:Ross
+
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:GoldenGun	
+o:sorry account does not match records
+
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:Ross	
+o:welcome, Bob
+				
